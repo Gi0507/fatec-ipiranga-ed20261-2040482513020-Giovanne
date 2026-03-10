@@ -1,3 +1,11 @@
+/*
+1.Um Tipo Abstrato de Dados (TAD) é um modelo que define um conjunto de dados e as operações que podem ser realizadas sobre eles, sem mostrar como esses dados são implementados internamente. 
+Sua característica fundamental é a abstração, ou seja, ocultar os detalhes da implementação e permitir que o usuário utilize apenas as operações disponíveis.
+
+2. As vantagens de usar TADs são: melhor organização do código, facilidade de manutenção, reutilização de código e maior segurança, pois os dados ficam protegidos e acessíveis apenas por meio das operações definidas.
+
+*/
+
 #include <stdio.h>
 int i=1
 typedef struct {
@@ -59,4 +67,5 @@ int main()
         }
         
     }
+
 }
